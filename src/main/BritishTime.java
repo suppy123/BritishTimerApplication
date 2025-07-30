@@ -36,7 +36,7 @@ public class BritishTime {
 		}
 	}
 
-	private static String callBritishTimeConverter(LocalTime input) {
+	public static String callBritishTimeConverter(LocalTime input) {
 		int hour = input.getHour();
 		int min = input.getMinute();
 
